@@ -1,4 +1,4 @@
-var canvas = document.querySelector("canvas");  Toma el lienzo del DOM
+var canvas = document.querySelector("canvas");  //Toma el lienzo del DOM
 
 canvas.width = window.innerWidth; // Establecer el ancho del lienzo al ancho de la pantalla.
 canvas.height = window.innerHeight; // Establecer la altura completa de la ventana
@@ -7,8 +7,8 @@ var context = canvas.getContext("2d"); //c:contexto, Obtiene el contexto para la
 
 
 function draw(scale, translatePos){ 
-    // var canvas = document.getElementById("myCanvas"); 
-    // var context = canvas.getContext("2d"); 
+    var canvas = document.getElementById("myCanvas"); 
+    var context = canvas.getContext("2d"); 
 
     // clear canvas 
     context.clearRect(0, 0, canvas.width, canvas.height); 
