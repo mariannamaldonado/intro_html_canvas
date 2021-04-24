@@ -1,9 +1,9 @@
-var canvas = document.querySelector("canvas");
+var canvas = document.querySelector("canvas");  Toma el lienzo del DOM
 
-canvas.width = window.innerWidth;
-canvas.height = window.innerHeight;
+canvas.width = window.innerWidth; // Establecer el ancho del lienzo al ancho de la pantalla.
+canvas.height = window.innerHeight; // Establecer la altura completa de la ventana
 
-var context = canvas.getContext("2d"); //c:contexto
+var context = canvas.getContext("2d"); //c:contexto, Obtiene el contexto para las funciones del canvas 2d
 
 
 function draw(scale, translatePos){ 
